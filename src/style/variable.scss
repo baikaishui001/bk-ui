@@ -1,0 +1,34 @@
+// 变量
+// 定义主题变量
+$b-border-radius: var(--b-border-radius, 2px); //一般圆角
+$b-font-size-sm: var(--b-font-size-md, 10px); //当组件size为''时使用此字号大小
+$b-font-size-md: var(--b-font-size-md, 12px); //当组件size为''时使用此字号大小
+$b-font-size-lg: var(--b-font-size-md, 14px); //当组件size为''时使用此字号大小
+$b-animation-duration-slow: var(--b-animation-duration-slow, 300ms);
+$b-animation-ease-in-out-smooth: var(
+  --b-animation-ease-in-out-smooth,
+  cubic-bezier(0.645, 0.045, 0.355, 1)
+);
+$b-light-text: var(--b-light-text, #ffffff); // 有色深色背景下字体颜色（固定）
+$b-primary: var(--b-primary, #1DA57A); // 主要按钮，同品牌色
+$b-primary-disabled: var(--b-primary-disabled, #94d2be); // 主要按钮，同品牌色
+$b-primary-hover: var(--b-primary-hover, #73e0be); // 主要按钮悬停
+$b-primary-active: var(--b-primary-active, #1fbe8c); // 主要按钮激活
+$b-text: var(--b-text, #252b3a); // 正文文本
+$b-disabled-text: var(--b-disabled-text, #8891a7); // 正文文本
+$b-disabled-bg: var(--b-disabled-bg, #c2cce5); // 正文文本
+$b-disabled-line: var(--b-disabled-line, #a9b0c0); // 正文文本
+$b-block: var(
+  --b-block,
+  #ffffff
+); // 大面积的不可折叠区块的背景色（例如顶部导航背景色）
+$b-line: var(--b-line, #adb0b8); // 边框分割线，仅用于边框
+$b-form-control-line-active: var(
+  --b-form-control-line-active,
+  #1fbe8c
+); // 表单控件边框激活色，用于获得焦点
+$b-brand-active: var(--b-brand-active, #4ccaa2); // 品牌色激活色（加深）
+$b-brand-active-focus: var(
+  --b-brand-active-focus,
+  #32a883
+); // 品牌色焦点色（重度加深）
